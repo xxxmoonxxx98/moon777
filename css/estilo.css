@@ -1,0 +1,251 @@
+/* Parámetros globales de Maquetación y Estilo */
+
+h1, h2, h3 {
+    font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+h4, h5, h6, p, a {
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Estilo propio del sitio web */
+aside#menu-cortina {
+width: 100%;                /* 100% / <= 300px */
+    height: 100%;
+    display: block;
+    margin: 0;
+    float: none;
+    position: fixed;
+    
+    top: 0;
+    right: -100%;                    /* left / right */
+    z-index: 99991;
+    
+    background: rgba(65, 9, 9, 0.79)}
+aside#menu-cortina a#abrir { }
+aside#menu-cortina a#abrir i { }
+aside#menu-cortina a#abrir:hover { }
+aside#menu-cortina a#abrir:hover i { }
+
+aside#menu-cortina a#cerrar { }
+aside#menu-cortina a#cerrar i { }
+aside#menu-cortina a#cerrar:hover { }
+aside#menu-cortina a#cerrar:hover i { }
+
+aside#menu-cortina nav#menu-idioma-movil { }
+aside#menu-cortina nav#menu-idioma-movil a { }
+aside#menu-cortina nav#menu-idioma-movil a:hover { }
+aside#menu-cortina nav#menu-idioma-movil span { }
+
+
+/* Body Index */
+
+header {
+     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+header article#header {
+   width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+       
+}
+
+header article#header a#logo {
+      float: left;
+    width: 10%;
+    
+}
+header article#header a#logo img {
+     width: 80px;
+    display: block;
+    margin: 0;
+    position: relative;
+}
+header article#header a#logo:hover img {}
+
+header article#header nav#menu-principal {
+    float: none;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+}
+header article#header nav#menu-principal a {
+    margin-right: 20px;
+}
+header article#header nav#menu-principal a:hover {}
+
+header article#header nav#menu-idioma {
+    float: left;
+    width: 10%;
+    padding: 28px 0;
+}
+header article#header nav#menu-idioma a {}
+header article#header nav#menu-idioma a:hover {}
+header article#header nav#menu-idioma span {}
+
+header article#header nav#menu-redes {
+    float: left;
+    width: 20%;
+    padding: 28px 0;
+    text-align: right;
+}
+header article#header nav#menu-redes a {
+     margin-right: 20px;
+}
+header article#header nav#menu-redes a i {
+  font-size: 22px;
+}
+header article#header nav#menu-redes a:hover {}
+
+
+main
+
+main section#slide-home 
+main section#slide-home article {
+    height: 100vh;
+    background-image: url('../img/test.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+main section#slide-home article figure {}
+main section#slide-home article figure div {
+    position: absolute;
+    left: 240px;
+    bottom: 190px;
+}
+main section#slide-home article figure div h3 {
+    margin: 0;
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
+    line-height: 80px;
+}
+main section#slide-home article figure div h3 img {}
+main section#slide-home article figure div h3 img p {
+      color: white;
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+main section#slide-home article figure div h3 img p a {}
+main section#slide-home article figure div h3 img p a:hover{}
+
+footer
+
+footer p {}
+
+
+/*Body Acerca de mí*/ 
+
+main
+
+main section#sectiondemi article#acerdademi {}
+main section#sectiondemi article#acerdademi h2 {}
+main section#sectiondemi article#acerdademi img {}
+main section#sectiondemi article#acerdademi p {}
+
+/*Body de fotos*/
+
+main
+
+main section#fotos {}
+main section#fotos h2 {}
+main section#fotos nav{}
+main section#fotos nav a{}
+main section#fotos nav a:hover {}
+
+/*Body de branding*/
+
+main 
+
+main section#sectionfotos {}
+main section#sectionfotos article {}
+main section#sectionfotos article h2 {}
+main section#sectionfotos article nav {}
+main section#sectionfotos article nav a {}
+main section#sectionfotos article nav a:hover {}
+
+
+/*Body de contacto*/
+
+main
+
+main section#sectioncontacto {}
+main section#sectioncontacto h2 {}
+main section#sectioncontacto nav {}
+main section#sectioncontacto nav a {}
+main section#sectioncontacto nav a i {}
+main section#sectioncontacto nav a:hover {}
+
+
+/* Zona Responsive */
+
+/*
+Escritorio y TV         >= 1200px
+Tablets                 <= 1199px --- >= 500px
+Móviles                 <= 499px --- >= 340px
+*/
+
+@media only screen and (max-width: 1199px){    /*Tablets*/
+    aside#menu-cortina {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 1099px){
+    
+}
+
+@media only screen and (max-width: 999px){
+    
+}
+
+@media only screen and (max-width: 899px){
+    
+}
+
+@media only screen and (max-width: 799px){
+    
+}
+
+@media only screen and (max-width: 699px){
+    
+}
+
+@media only screen and (max-width: 599px){
+    
+}
+
+@media only screen and (max-width: 499px){     /*Móviles*/
+    
+}
+
+@media only screen and (max-width: 449px){
+    
+}
+
+@media only screen and (max-width: 399px){
+    
+}
+
+@media only screen and (max-width: 349px){
+    
+}
+
+
+
+
+
+
